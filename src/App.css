@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.widther{
+  width: 100vw !important;
+}
+.details{
+  width: 50vh;
+}
+.maxwidths{
+  max-width: 100vh !important;
+}
+.flexer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.texter{
+  font-size:40px;
+  opacity: 0.8;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.jomhuria-regular {
+  font-family: "Jomhuria", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.App-link {
+  color: #61dafb;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.map{
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+
+}
+.bg-image{
+  z-index: -1;
+
+}
+
+
+@media screen and (max-width: 536px) {
+  .fontSize {
+      font-size: 70px; /* Adjust font size for smaller screens */
+  }
+.fontSizep2 {
+  scale: 0.5;
+}
+.details{
+  width: 100%;
+}
+.flexer{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+}
+
+/* Media query for medium-sized screens */
+@media screen and (min-width: 537px) and (max-width: 1024px) {
+  .fontSize {
+      font-size: 130px; /* Adjust font size for medium-sized screens */
+  }
+.fontSizep2 {
+  scale: 0.7;
+}
+
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 1025px) {
+  .fontSize {
+      font-size: 180px; /* Adjust font size for larger screens */
+  }
+.fontSizep2 {
+ scale: 1.5;
+}
+}
